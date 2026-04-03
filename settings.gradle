@@ -15,5 +15,6 @@ file("gradle.properties").withInputStream {
 
 include(
     "run-fabric",
-    "run-forge"
+    "run-forge",
+    "run-neoforge"
 )

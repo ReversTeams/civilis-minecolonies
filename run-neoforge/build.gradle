@@ -1,0 +1,21 @@
+plugins {
+    id "net.neoforged.gradle" version "7.+"
+}
+
+neoForge {
+    version = "${rootProject.minecraft_version}-${rootProject.neoforge_version}"
+}
+
+minecraft {
+    mappings channel: 'official', version: rootProject.minecraft_version
+
+    runs {
+        client {
+            workingDirectory project.file("run")
+        }
+    }
+}
+
+dependencies {
+    implementation project(":")
+}
