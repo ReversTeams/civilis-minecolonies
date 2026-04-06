@@ -33,7 +33,7 @@ jobs:
           modrinth-id: "RTqoTuFA"
           version-range: "[1.20.1,1.20.2)"
           version-type: "release"
-          loaders: "forge"
+          loaders: "neoforge"
           changelog: "- Ported to 1.21.1"
 
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
