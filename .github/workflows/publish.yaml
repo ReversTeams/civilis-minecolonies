@@ -28,13 +28,15 @@ jobs:
         uses: tristankechlo/publish-mc-mod@v2.0.0
         with:
           mc-version: "1.21.1"
-          mod-version: "1.0.1"
+          mod-version: "1.0.2"
           curseforge-id: 1499759
           modrinth-id: "RTqoTuFA"
           version-range: "[1.21.1,1.21.2)"
           version-type: "release"
           loaders: "neoforge"
-          changelog: "- Increased Minecolonies block weight for Civilis"
+          changelog: |
+            - Doubled Minecolonies block weight for civilized areas
+            - Buffed the guard tower weight for civilized areas
 
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
