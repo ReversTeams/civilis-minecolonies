@@ -34,7 +34,9 @@ jobs:
           version-range: "[1.20.1,1.20.2)"
           version-type: "release"
           loaders: "forge"
-          changelog: "- Increased Minecolonies block weights for Civilis"
+          changelog: |
+            - Doubled Minecolonies block weight for civilized areas
+            - Buffed the guard tower weight for civilized areas
 
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
