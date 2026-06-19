@@ -28,15 +28,14 @@ jobs:
         uses: tristankechlo/publish-mc-mod@v2.0.0
         with:
           mc-version: "1.21.1"
-          mod-version: "1.0.3"
+          mod-version: "1.0.4"
           curseforge-id: 1499759
           modrinth-id: "RTqoTuFA"
           version-range: "[1.21.1,1.21.2)"
           version-type: "release"
           loaders: "neoforge"
           changelog: |
-            - Standardized loading
-            - Minecolonies raiders can now spawn through civilized areas
+            - Minecolonies raiders now no longer flee from civilized areas
 
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}

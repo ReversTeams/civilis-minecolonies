@@ -20,7 +20,27 @@
   "entries": [
     {
       "blacklist": [],
-      "whitelist": ["minecolonies:amazon", "minecolonies:amazonchief", "minecolonies:amazonspearman", "minecolonies:archermummy", "minecolonies:archerpirate", "minecolonies:barbarian", "minecolonies:cavalry_horse", "minecolonies:chiefbarbarian", "minecolonies:chiefpirate", "minecolonies:drownedarcherpirate", "minecolonies:drownedchiefpirate", "minecolonies:drownedpirate", "minecolonies:mercenary", "minecolonies:mummy", "minecolonies:norsemenarcher", "minecolonies:norsemenchief", "minecolonies:pharao", "minecolonies:pirate", "minecolonies:shieldmaiden"]
+      "whitelist": [
+        "minecolonies:amazon",
+        "minecolonies:amazonchief",
+        "minecolonies:amazonspearman",
+        "minecolonies:archermummy",
+        "minecolonies:archerpirate",
+        "minecolonies:barbarian",
+        "minecolonies:cavalry_horse",
+        "minecolonies:chiefbarbarian",
+        "minecolonies:chiefpirate",
+        "minecolonies:drownedarcherpirate",
+        "minecolonies:drownedchiefpirate",
+        "minecolonies:drownedpirate",
+        "minecolonies:mercenary",
+        "minecolonies:mummy",
+        "minecolonies:norsemenarcher",
+        "minecolonies:norsemenchief",
+        "minecolonies:pharao",
+        "minecolonies:pirate",
+        "minecolonies:shieldmaiden"
+      ]
     }
   ]
 }
