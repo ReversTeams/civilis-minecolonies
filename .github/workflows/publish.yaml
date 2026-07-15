@@ -28,14 +28,14 @@ jobs:
         uses: tristankechlo/publish-mc-mod@v2.0.0
         with:
           mc-version: "1.20.1"
-          mod-version: "1.0.4"
+          mod-version: "1.0.5"
           curseforge-id: 1499759
           modrinth-id: "RTqoTuFA"
           version-range: "[1.20.1,1.20.2)"
           version-type: "release"
           loaders: "forge"
           changelog: |
-            - Minecolonies raiders now no longer flee from civilized areas
+            - Barbarian archers no longer flee from Civilized areas.
 
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
